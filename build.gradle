@@ -64,7 +64,7 @@ repositories {
 
 dependencies {
     compile "org.apache.cassandra:cassandra-all:2.1.9"
-    compile "com.datastax.spark:spark-cassandra-connector_$scalaMajor:rhap1.6.0-M2"
+    compile "com.datastax.spark:spark-cassandra-connector_$scalaMajor:rhap1.6.0"
 
     provided "org.apache.spark:spark-hive_$scalaMajor:rhap1.6.0"
 
